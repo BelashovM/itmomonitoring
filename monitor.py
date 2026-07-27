@@ -14,8 +14,8 @@ TRACKED_IDS = [
     "2131095"
 ]
 
-BOT_TOKEN = '7860640743:AAGq_jSWnY6gfm6i9BrnDrUiwl9I2cJDTyA'
-CHAT_ID = '947777152'
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
 
 
 
