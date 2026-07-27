@@ -1,5 +1,6 @@
 name: ITMO Monitor
-
+permissions:
+  contents: write
 on:
   schedule:
     - cron: "*/5 * * * *"
@@ -22,12 +23,16 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run monitor
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.CHAT_ID }}
+      - name: Commit monitoring data
         run: |
-          python monitor.py
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/
+
+          git diff --cached --quiet || git commit -m "Update monitoring data"
+
+          git push
 
       - name: Save monitoring data
         run: |
