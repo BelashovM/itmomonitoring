@@ -13,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -42,5 +44,8 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update ITMO data"
-            git push
+
+            git pull --rebase origin main
+
+            git push origin main
           fi
