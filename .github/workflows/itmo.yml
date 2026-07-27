@@ -45,7 +45,8 @@ jobs:
           else
             git commit -m "Update ITMO data"
 
-            git pull --rebase origin main
+            git fetch origin main
+            git rebase origin/main
 
             git push origin main
           fi
