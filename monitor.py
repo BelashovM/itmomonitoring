@@ -14,8 +14,8 @@ TRACKED_IDS = [
     "2131095"
 ]
 
-BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+BOT_TOKEN = os.environ["7860640743:AAGq_jSWnY6gfm6i9BrnDrUiwl9I2cJDTyA"]
+CHAT_ID = os.environ["947777152"]
 
 
 def send_telegram(text):
