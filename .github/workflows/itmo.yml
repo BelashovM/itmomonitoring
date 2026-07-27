@@ -1,4 +1,4 @@
-name: ITMO Monitor
+name: ITMO Monitor Test
 
 on:
   schedule:
