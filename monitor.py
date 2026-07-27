@@ -25,12 +25,7 @@ PROGRAMS = [
     }
 ]
 
-DATA_FILE = "itmo_data.json"
-
-TRACKED_IDS = [
-    "2129111",
-    "2131095"
-]
+all_current[program["name"]] = current
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
@@ -59,13 +54,13 @@ def send_telegram(text):
 
 def load_previous():
     if not os.path.exists(DATA_FILE):
-        return []
+        return {}
 
     try:
         with open(DATA_FILE, "r", encoding="utf8") as f:
             return json.load(f)
     except:
-        return []
+        return {}
 
 
 def save_current(data):
@@ -78,13 +73,13 @@ def save_current(data):
         )
 
 
-def download():
+def download(url):
     headers = {
         "User-Agent": "Mozilla/5.0"
     }
 
     r = requests.get(
-        URL,
+        url,
         headers=headers,
         timeout=20
     )
@@ -134,11 +129,11 @@ def parse(html):
     return result
 
 
-def summary(data):
+def summary(data, tracked_ids, program_name):
     tracked = []
 
     for app in data:
-        if app["number"] in TRACKED_IDS:
+        if app["number"] in tracked_ids:
             tracked.append(app)
 
     p1 = sum(
@@ -149,7 +144,7 @@ def summary(data):
 
     text = []
 
-    text.append("📊 ИТМО")
+    text.append(f"📊 ИТМО — {program_name}")
     text.append("")
     text.append(f"Всего: {len(data)}")
     text.append(f"Приоритет 1: {p1}")
@@ -186,7 +181,7 @@ def summary(data):
     return "\n".join(text)
 
 
-def compare(old, new):
+def compare(old, new, tracked_ids):
 
     messages = []
 
@@ -205,7 +200,7 @@ def compare(old, new):
             f"👥 Количество абитуриентов изменилось\n{len(old)} → {len(new)}"
         )
 
-    for num in TRACKED_IDS:
+    for num in tracked_ids:
 
         if num not in old_map:
             continue
@@ -247,60 +242,62 @@ def compare(old, new):
 def main():
 
     now = datetime.now().strftime("%H:%M:%S")
-
     print(now)
 
-for program in PROGRAMS:
-
-    html = download(program["url"])
-
-    current = parse(html)
-
-    send_telegram(
-        f"✅ {program['name']} работает\n"
-        f"Абитуриентов: {len(current)}"
-    )
-
+    all_current = {}
     previous = load_previous()
 
+    for program in PROGRAMS:
 
-    # сообщение о том, что проверка работает
-    send_telegram(
-        f"✅ ИТМО монитор работает\n"
-        f"⏰ Проверка: {now}\n"
-        f"👥 Абитуриентов: {len(current)}"
-    )
+        html = download(program["url"])
+        current = parse(html)
 
-
-    if not previous:
+        all_current[program["name"]] = current
 
         send_telegram(
-            "🚀 Первый запуск\n\n"
-            + summary(current)
+            f"✅ {program['name']} работает\n"
+            f"⏰ Проверка: {now}\n"
+            f"👥 Абитуриентов: {len(current)}"
         )
 
-    else:
+        old_data = previous.get(program["name"], [])
 
-        changes = compare(
-            previous,
-            current
-        )
-
-        if changes:
+        if not old_data:
 
             send_telegram(
-                "🔔 ОБНАРУЖЕНЫ ИЗМЕНЕНИЯ!\n\n"
-                + "\n\n".join(changes)
-                + "\n\n"
-                + summary(current)
+                f"🚀 Первый запуск — {program['name']}\n\n"
+                + summary(
+                    current,
+                    program["tracked_ids"],
+                    program["name"]
+                )
             )
 
         else:
 
-            print("Изменений нет")
+            changes = compare(
+                old_data,
+                current,
+                program["tracked_ids"]
+            )
 
+            if changes:
 
-    save_current(current)
+                send_telegram(
+                    f"🔔 ОБНАРУЖЕНЫ ИЗМЕНЕНИЯ — {program['name']}!\n\n"
+                    + "\n\n".join(changes)
+                    + "\n\n"
+                    + summary(
+                        current,
+                        program["tracked_ids"],
+                        program["name"]
+                    )
+                )
+
+            else:
+                print(f"{program['name']}: изменений нет")
+
+    save_current(all_current)
 
 if __name__ == "__main__":
 
