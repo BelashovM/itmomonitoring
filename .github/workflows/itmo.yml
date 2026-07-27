@@ -1,6 +1,6 @@
 name: ITMO Monitor Test
 
-on:
+"on":
   schedule:
     - cron: "*\5 * * * *"
   workflow_dispatch:
