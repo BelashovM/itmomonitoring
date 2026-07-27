@@ -107,11 +107,13 @@ def main():
     previous=load()
     current_all={}
     report=[f"✅ ИТМО монитор работает",f"⏰ {now}",""]
+
     for p in PROGRAMS:
         try:
             current=parse(download(p["url"]))
             current_all[p["name"]]=current
-                        tracked = [x for x in current if x["number"] in p["tracked_ids"]]
+
+            tracked = [x for x in current if x["number"] in p["tracked_ids"]]
 
             if tracked:
                 a = tracked[0]
@@ -126,6 +128,7 @@ def main():
                     f"🟡 {p['name']}: {len(current)} абитуриентов\n"
                     f"⚠️ Ваш ID не найден"
                 )
+
             old=previous.get(p["name"],[])
             if not old:
                 send("🚀 Первый запуск\n\n"+summary(current,p["tracked_ids"],p["name"]))
@@ -133,9 +136,11 @@ def main():
                 changes=compare(old,current,p["tracked_ids"])
                 if changes:
                     send("🔔 "+p["name"]+"\n\n"+"\n".join(changes)+"\n\n"+summary(current,p["tracked_ids"],p["name"]))
+
         except Exception as e:
             report.append(f"🔴 {p['name']}: ошибка")
             send(f"❌ Ошибка в программе {p['name']}\n{e}")
+
     save(current_all)
     send("\n".join(report))
 
