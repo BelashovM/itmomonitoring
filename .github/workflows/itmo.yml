@@ -5,10 +5,6 @@ on:
     - cron: "* * * * *"
   workflow_dispatch:
 
-concurrency:
-  group: itmo-monitor
-  cancel-in-progress: true
-  
 permissions:
   contents: write
 
@@ -48,9 +44,7 @@ jobs:
             echo "No changes"
           else
             git commit -m "Update ITMO data"
-
             git fetch origin main
             git rebase origin/main
-
             git push origin HEAD:main
           fi
