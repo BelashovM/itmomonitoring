@@ -209,8 +209,30 @@
     "consent": false
   },
   {
-    "number": "2086076",
+    "number": "2293010",
     "position": 20,
+    "priority": 3,
+    "exam_type": "Мегаконкурс",
+    "ia_scores": 0,
+    "exam_scores": 0,
+    "total_scores": 0,
+    "average": 4.9756097560976,
+    "consent": false
+  },
+  {
+    "number": "2292739",
+    "position": 21,
+    "priority": 3,
+    "exam_type": "Мегаконкурс",
+    "ia_scores": 0,
+    "exam_scores": 0,
+    "total_scores": 0,
+    "average": 4.6363636363636,
+    "consent": false
+  },
+  {
+    "number": "2086076",
+    "position": 22,
     "priority": 3,
     "exam_type": "Мегаконкурс",
     "ia_scores": 0,
@@ -221,7 +243,7 @@
   },
   {
     "number": "1626568",
-    "position": 21,
+    "position": 23,
     "priority": 6,
     "exam_type": "Мегаконкурс",
     "ia_scores": 0,
@@ -229,28 +251,6 @@
     "total_scores": 0,
     "average": 3.8775510204082,
     "consent": true
-  },
-  {
-    "number": "2292739",
-    "position": 22,
-    "priority": 3,
-    "exam_type": "Мегаконкурс",
-    "ia_scores": 0,
-    "exam_scores": 0,
-    "total_scores": 0,
-    "average": 3,
-    "consent": false
-  },
-  {
-    "number": "2293010",
-    "position": 23,
-    "priority": 3,
-    "exam_type": "Мегаконкурс",
-    "ia_scores": 0,
-    "exam_scores": 0,
-    "total_scores": 0,
-    "average": 3,
-    "consent": false
   },
   {
     "number": "1137891",
