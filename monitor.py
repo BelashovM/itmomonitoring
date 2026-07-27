@@ -33,10 +33,17 @@ def send(text):
 def load():
     if not os.path.exists(DATA_FILE):
         return {}
+
     try:
-        with open(DATA_FILE,"r",encoding="utf8") as f:
-            return json.load(f)
-    except:
+        with open(DATA_FILE, "r", encoding="utf8") as f:
+            data = json.load(f)
+
+        if isinstance(data, list):
+            return {}
+
+        return data
+
+    except Exception:
         return {}
 
 def save(data):
