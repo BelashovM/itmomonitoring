@@ -28,3 +28,14 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: |
           python monitor.py
+
+      - name: Save monitoring data
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git add itmo_data.json
+
+          git commit -m "Update monitoring data" || echo "No changes"
+
+          git push
