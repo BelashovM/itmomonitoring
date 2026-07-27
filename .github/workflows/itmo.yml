@@ -2,9 +2,9 @@ name: ITMO Monitor Test
 
 on:
   push:
+  workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
-  workflow_dispatch:
 
 permissions:
   contents: write
