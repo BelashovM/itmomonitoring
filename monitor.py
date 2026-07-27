@@ -111,11 +111,21 @@ def main():
         try:
             current=parse(download(p["url"]))
             current_all[p["name"]]=current
-            tracked = [x for x in current if x["number"] in p["tracked_ids"]]  if tracked:     a = tracked[0]     report.append(         f"🟢 {p['name']}: {len(current)} абитуриентов
-"         f"🏆 Место: {a['position']}
-"         f"📊 Балл: {a['total_scores']}
-"         f"📝 Приоритет: {a['priority']}"     ) else:     report.append(         f"🟡 {p['name']}: {len(current)} абитуриентов
-"         f"⚠️ Ваш ID не найден"     )
+                        tracked = [x for x in current if x["number"] in p["tracked_ids"]]
+
+            if tracked:
+                a = tracked[0]
+                report.append(
+                    f"🟢 {p['name']}: {len(current)} абитуриентов\n"
+                    f"🏆 Место: {a['position']}\n"
+                    f"📊 Балл: {a['total_scores']}\n"
+                    f"📝 Приоритет: {a['priority']}"
+                )
+            else:
+                report.append(
+                    f"🟡 {p['name']}: {len(current)} абитуриентов\n"
+                    f"⚠️ Ваш ID не найден"
+                )
             old=previous.get(p["name"],[])
             if not old:
                 send("🚀 Первый запуск\n\n"+summary(current,p["tracked_ids"],p["name"]))
