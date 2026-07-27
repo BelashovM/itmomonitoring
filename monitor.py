@@ -228,13 +228,24 @@ def compare(old, new):
 
 def main():
 
-    print(datetime.now())
+    now = datetime.now().strftime("%H:%M:%S")
+
+    print(now)
 
     html = download()
 
     current = parse(html)
 
     previous = load_previous()
+
+
+    # сообщение о том, что проверка работает
+    send_telegram(
+        f"✅ ИТМО монитор работает\n"
+        f"⏰ Проверка: {now}\n"
+        f"👥 Абитуриентов: {len(current)}"
+    )
+
 
     if not previous:
 
@@ -253,17 +264,18 @@ def main():
         if changes:
 
             send_telegram(
-                "🔔 Обнаружены изменения\n\n"
+                "🔔 ОБНАРУЖЕНЫ ИЗМЕНЕНИЯ!\n\n"
                 + "\n\n".join(changes)
                 + "\n\n"
                 + summary(current)
             )
 
         else:
+
             print("Изменений нет")
 
-    save_current(current)
 
+    save_current(current)
 
 if __name__ == "__main__":
 
