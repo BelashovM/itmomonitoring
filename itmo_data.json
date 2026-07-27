@@ -73,12 +73,23 @@
     "ia_scores": 0,
     "exam_scores": 100,
     "total_scores": 100,
-    "average": 3.952380952381,
+    "average": 4.0434782608696,
     "consent": true
   },
   {
-    "number": "1246441",
+    "number": "1252049",
     "position": 8,
+    "priority": 25,
+    "exam_type": "ЯП",
+    "ia_scores": 0,
+    "exam_scores": 0,
+    "total_scores": 0,
+    "average": 4.8125,
+    "consent": false
+  },
+  {
+    "number": "1246441",
+    "position": 9,
     "priority": 4,
     "exam_type": "ЯП",
     "ia_scores": 0,
@@ -89,7 +100,7 @@
   },
   {
     "number": "1893677",
-    "position": 9,
+    "position": 10,
     "priority": 2,
     "exam_type": "ЯП",
     "ia_scores": 0,
@@ -99,8 +110,19 @@
     "consent": false
   },
   {
+    "number": "1955815",
+    "position": 11,
+    "priority": 5,
+    "exam_type": "ЯП",
+    "ia_scores": 0,
+    "exam_scores": 0,
+    "total_scores": 0,
+    "average": 3,
+    "consent": false
+  },
+  {
     "number": "2173525",
-    "position": 10,
+    "position": 12,
     "priority": 2,
     "exam_type": "ЯП",
     "ia_scores": 0,
@@ -111,7 +133,7 @@
   },
   {
     "number": "2081867",
-    "position": 11,
+    "position": 13,
     "priority": 3,
     "exam_type": "ЯП",
     "ia_scores": 0,
@@ -121,41 +143,8 @@
     "consent": false
   },
   {
-    "number": "2365747",
-    "position": 12,
-    "priority": 4,
-    "exam_type": "ЯП",
-    "ia_scores": 0,
-    "exam_scores": 0,
-    "total_scores": 0,
-    "average": 3,
-    "consent": false
-  },
-  {
-    "number": "2365531",
-    "position": 13,
-    "priority": 29,
-    "exam_type": null,
-    "ia_scores": 0,
-    "exam_scores": 0,
-    "total_scores": 0,
-    "average": 3,
-    "consent": false
-  },
-  {
-    "number": "1252049",
-    "position": 14,
-    "priority": 25,
-    "exam_type": "ЯП",
-    "ia_scores": 0,
-    "exam_scores": 0,
-    "total_scores": 0,
-    "average": 4.8125,
-    "consent": false
-  },
-  {
     "number": "2242280",
-    "position": 15,
+    "position": 14,
     "priority": 5,
     "exam_type": "ЯП",
     "ia_scores": 0,
@@ -166,7 +155,7 @@
   },
   {
     "number": "2131879",
-    "position": 16,
+    "position": 15,
     "priority": 4,
     "exam_type": "Призер ЯП",
     "ia_scores": 0,
@@ -177,7 +166,7 @@
   },
   {
     "number": "1652830",
-    "position": 17,
+    "position": 16,
     "priority": 2,
     "exam_type": "Призер ЯП",
     "ia_scores": 0,
@@ -188,7 +177,7 @@
   },
   {
     "number": "967634",
-    "position": 18,
+    "position": 17,
     "priority": 1,
     "exam_type": "Призер ЯП",
     "ia_scores": 0,
@@ -196,6 +185,17 @@
     "total_scores": 0,
     "average": 4.1969696969697,
     "consent": true
+  },
+  {
+    "number": "2365531",
+    "position": 18,
+    "priority": 29,
+    "exam_type": null,
+    "ia_scores": 0,
+    "exam_scores": 0,
+    "total_scores": 0,
+    "average": 3,
+    "consent": false
   },
   {
     "number": "1628511",
@@ -297,8 +297,19 @@
     "consent": true
   },
   {
-    "number": "2236890",
+    "number": "2365747",
     "position": 28,
+    "priority": 4,
+    "exam_type": "КП",
+    "ia_scores": 0,
+    "exam_scores": 0,
+    "total_scores": 0,
+    "average": 3,
+    "consent": false
+  },
+  {
+    "number": "2236890",
+    "position": 29,
     "priority": 1,
     "exam_type": "ВЭ",
     "ia_scores": 0,
@@ -309,7 +320,7 @@
   },
   {
     "number": "1503483",
-    "position": 29,
+    "position": 30,
     "priority": 3,
     "exam_type": "ВЭ",
     "ia_scores": 0,
@@ -320,7 +331,7 @@
   },
   {
     "number": "2117943",
-    "position": 30,
+    "position": 31,
     "priority": 2,
     "exam_type": "ВЭ",
     "ia_scores": 0,
@@ -331,7 +342,7 @@
   },
   {
     "number": "1879773",
-    "position": 31,
+    "position": 32,
     "priority": 4,
     "exam_type": "ВЭ",
     "ia_scores": 0,
@@ -342,24 +353,13 @@
   },
   {
     "number": "1896907",
-    "position": 32,
+    "position": 33,
     "priority": 3,
     "exam_type": "ВЭ",
     "ia_scores": 0,
     "exam_scores": 0,
     "total_scores": 0,
     "average": 4.1555555555556,
-    "consent": false
-  },
-  {
-    "number": "2342523",
-    "position": 33,
-    "priority": 2,
-    "exam_type": "ВЭ",
-    "ia_scores": 0,
-    "exam_scores": 0,
-    "total_scores": 0,
-    "average": 3,
     "consent": false
   },
   {
@@ -370,7 +370,7 @@
     "ia_scores": 0,
     "exam_scores": 0,
     "total_scores": 0,
-    "average": 3,
+    "average": 3.7777777777778,
     "consent": false
   },
   {
@@ -388,11 +388,11 @@
     "number": "2006041",
     "position": 36,
     "priority": 2,
-    "exam_type": null,
+    "exam_type": "ВЭ",
     "ia_scores": 0,
     "exam_scores": 0,
     "total_scores": 0,
-    "average": 3,
+    "average": 3.7741935483871,
     "consent": false
   },
   {
@@ -403,13 +403,13 @@
     "ia_scores": 0,
     "exam_scores": 0,
     "total_scores": 0,
-    "average": 3,
+    "average": 3.6785714285714,
     "consent": false
   },
   {
-    "number": "1955815",
+    "number": "2342523",
     "position": 38,
-    "priority": 5,
+    "priority": 2,
     "exam_type": "ВЭ",
     "ia_scores": 0,
     "exam_scores": 0,
