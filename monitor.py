@@ -5,7 +5,25 @@ from datetime import datetime
 
 import requests
 
-URL = "https://abit.itmo.ru/rating/master/budget/2397"
+PROGRAMS = [
+    {
+        "name": "Фотончики",
+        "url": "https://abit.itmo.ru/rating/master/budget/2397",
+        "tracked_ids": [
+            "2129111"
+            
+        ]
+    },
+
+    {
+        "name": "Наночастички",
+        "url": "https://abit.itmo.ru/rating/master/budget/2396",
+        "tracked_ids": [
+            "2131095"
+          
+        ]
+    }
+]
 
 DATA_FILE = "itmo_data.json"
 
@@ -232,9 +250,16 @@ def main():
 
     print(now)
 
-    html = download()
+for program in PROGRAMS:
+
+    html = download(program["url"])
 
     current = parse(html)
+
+    send_telegram(
+        f"✅ {program['name']} работает\n"
+        f"Абитуриентов: {len(current)}"
+    )
 
     previous = load_previous()
 
