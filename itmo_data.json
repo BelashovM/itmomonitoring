@@ -327,6 +327,30 @@
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
+    },
+    {
+      "number": "2406445",
+      "position": 42,
+      "priority": 1,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2435771",
+      "position": 43,
+      "priority": 2,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2425569",
+      "position": 44,
+      "priority": 9,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
     }
   ],
   "Наночастички": [
@@ -731,72 +755,16 @@
       "consent": false
     },
     {
-      "number": "2175476",
-      "position": 51,
-      "priority": 4,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
       "number": "2117229",
-      "position": 52,
+      "position": 51,
       "priority": 3,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
     },
     {
-      "number": "2370501",
-      "position": 53,
-      "priority": 1,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2327400",
-      "position": 54,
-      "priority": 6,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2337134",
-      "position": 55,
-      "priority": 2,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2011384",
-      "position": 56,
-      "priority": 4,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2339909",
-      "position": 57,
-      "priority": 2,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2416100",
-      "position": 58,
-      "priority": 1,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
       "number": "1744693",
-      "position": 59,
+      "position": 52,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -804,7 +772,7 @@
     },
     {
       "number": "1988788",
-      "position": 60,
+      "position": 53,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -812,7 +780,7 @@
     },
     {
       "number": "2216157",
-      "position": 61,
+      "position": 54,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -820,7 +788,7 @@
     },
     {
       "number": "2302995",
-      "position": 62,
+      "position": 55,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -828,24 +796,96 @@
     },
     {
       "number": "1937026",
-      "position": 63,
+      "position": 56,
       "priority": 3,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2175476",
+      "position": 57,
+      "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
     },
     {
       "number": "2328224",
-      "position": 64,
+      "position": 58,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
     },
     {
+      "number": "2370501",
+      "position": 59,
+      "priority": 1,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2327400",
+      "position": 60,
+      "priority": 6,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2435771",
+      "position": 61,
+      "priority": 1,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2337134",
+      "position": 62,
+      "priority": 2,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2339909",
+      "position": 63,
+      "priority": 2,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
       "number": "2341598",
-      "position": 65,
+      "position": 64,
       "priority": 3,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2011384",
+      "position": 65,
+      "priority": 4,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2416100",
+      "position": 66,
+      "priority": 1,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2425569",
+      "position": 67,
+      "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
