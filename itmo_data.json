@@ -347,7 +347,7 @@
     {
       "number": "2342523",
       "position": 44,
-      "priority": 2,
+      "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
