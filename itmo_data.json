@@ -559,6 +559,14 @@
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
+    },
+    {
+      "number": "2073710",
+      "position": 71,
+      "priority": 1,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
     }
   ],
   "Наночастички": [
@@ -1323,8 +1331,16 @@
       "consent": false
     },
     {
-      "number": "2542853",
+      "number": "2564495",
       "position": 96,
+      "priority": 42,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2542853",
+      "position": 97,
       "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
@@ -1332,16 +1348,8 @@
     },
     {
       "number": "2100821",
-      "position": 97,
-      "priority": 24,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2564495",
       "position": 98,
-      "priority": 42,
+      "priority": 24,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
