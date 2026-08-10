@@ -281,7 +281,7 @@
       "consent": false
     },
     {
-      "number": "1134880",
+      "number": "2570512",
       "position": 36,
       "priority": 5,
       "total_scores": 0,
@@ -289,17 +289,17 @@
       "consent": false
     },
     {
-      "number": "1563620",
+      "number": "1134880",
       "position": 37,
-      "priority": 1,
+      "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
     },
     {
-      "number": "2570512",
+      "number": "1563620",
       "position": 38,
-      "priority": 5,
+      "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
