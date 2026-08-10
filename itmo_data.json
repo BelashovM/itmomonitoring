@@ -54,7 +54,7 @@
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "2086076",
@@ -616,7 +616,7 @@
       "priority": 2,
       "total_scores": 100,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "2086076",
