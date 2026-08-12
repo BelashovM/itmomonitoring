@@ -752,7 +752,7 @@
       "priority": 3,
       "total_scores": 6,
       "ia_scores": 6,
-      "consent": false
+      "consent": true
     },
     {
       "number": "1522658",
