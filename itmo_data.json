@@ -137,31 +137,31 @@
       "consent": true
     },
     {
-      "number": "2458133",
+      "number": "1134880",
       "position": 18,
+      "priority": 5,
+      "total_scores": 100,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2458133",
+      "position": 19,
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
       "consent": true
     },
     {
-      "number": "2342523",
-      "position": 19,
+      "number": "1563620",
+      "position": 20,
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
       "consent": false
     },
     {
-      "number": "2302995",
-      "position": 20,
-      "priority": 3,
-      "total_scores": 100,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2025423",
+      "number": "2342523",
       "position": 21,
       "priority": 1,
       "total_scores": 100,
@@ -169,8 +169,24 @@
       "consent": false
     },
     {
-      "number": "2177897",
+      "number": "2302995",
       "position": 22,
+      "priority": 3,
+      "total_scores": 100,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2025423",
+      "position": 23,
+      "priority": 1,
+      "total_scores": 100,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2177897",
+      "position": 24,
       "priority": 3,
       "total_scores": 87.5,
       "ia_scores": 0,
@@ -178,7 +194,7 @@
     },
     {
       "number": "1260261",
-      "position": 23,
+      "position": 25,
       "priority": 1,
       "total_scores": 87.5,
       "ia_scores": 0,
@@ -186,7 +202,7 @@
     },
     {
       "number": "1137891",
-      "position": 24,
+      "position": 26,
       "priority": 3,
       "total_scores": 75,
       "ia_scores": 0,
@@ -194,7 +210,7 @@
     },
     {
       "number": "1416401",
-      "position": 25,
+      "position": 27,
       "priority": 3,
       "total_scores": 62.5,
       "ia_scores": 0,
@@ -202,7 +218,7 @@
     },
     {
       "number": "1246441",
-      "position": 26,
+      "position": 28,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -210,7 +226,7 @@
     },
     {
       "number": "2520754",
-      "position": 27,
+      "position": 29,
       "priority": 7,
       "total_scores": 0,
       "ia_scores": 0,
@@ -218,7 +234,7 @@
     },
     {
       "number": "1955815",
-      "position": 28,
+      "position": 30,
       "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
@@ -226,7 +242,7 @@
     },
     {
       "number": "2497260",
-      "position": 29,
+      "position": 31,
       "priority": 6,
       "total_scores": 0,
       "ia_scores": 0,
@@ -234,7 +250,7 @@
     },
     {
       "number": "2154791",
-      "position": 30,
+      "position": 32,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -242,7 +258,7 @@
     },
     {
       "number": "2131879",
-      "position": 31,
+      "position": 33,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -250,7 +266,7 @@
     },
     {
       "number": "2273954",
-      "position": 32,
+      "position": 34,
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
@@ -258,7 +274,7 @@
     },
     {
       "number": "1652830",
-      "position": 33,
+      "position": 35,
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
@@ -266,7 +282,7 @@
     },
     {
       "number": "967634",
-      "position": 34,
+      "position": 36,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -274,24 +290,8 @@
     },
     {
       "number": "1628511",
-      "position": 35,
-      "priority": 8,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "1134880",
-      "position": 36,
-      "priority": 5,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "1563620",
       "position": 37,
-      "priority": 1,
+      "priority": 8,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
