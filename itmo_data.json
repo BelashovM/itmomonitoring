@@ -824,7 +824,7 @@
       "priority": 1,
       "total_scores": 93,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "1613227",
@@ -997,7 +997,7 @@
     {
       "number": "2558152",
       "position": 52,
-      "priority": 6,
+      "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
