@@ -286,7 +286,7 @@
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "2227159",
@@ -784,7 +784,7 @@
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "2227159",
