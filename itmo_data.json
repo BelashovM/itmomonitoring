@@ -387,7 +387,7 @@
     {
       "number": "2391232",
       "position": 49,
-      "priority": 2,
+      "priority": 3,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": true
@@ -1069,7 +1069,7 @@
     {
       "number": "2391232",
       "position": 62,
-      "priority": 1,
+      "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": true
