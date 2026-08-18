@@ -206,7 +206,7 @@
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "2177897",
@@ -310,7 +310,7 @@
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "1893677",
@@ -768,7 +768,7 @@
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "1893677",
@@ -861,7 +861,7 @@
     {
       "number": "2458999",
       "position": 36,
-      "priority": 2,
+      "priority": 1,
       "total_scores": 73,
       "ia_scores": 0,
       "consent": false
@@ -1181,7 +1181,7 @@
     {
       "number": "2614583",
       "position": 76,
-      "priority": 3,
+      "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
       "consent": true
@@ -1224,7 +1224,7 @@
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
-      "consent": true
+      "consent": false
     },
     {
       "number": "1260261",
