@@ -281,8 +281,16 @@
       "consent": true
     },
     {
-      "number": "2335776",
+      "number": "1857701",
       "position": 36,
+      "priority": 2,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": true
+    },
+    {
+      "number": "2335776",
+      "position": 37,
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
@@ -290,7 +298,7 @@
     },
     {
       "number": "967634",
-      "position": 37,
+      "position": 38,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -298,7 +306,7 @@
     },
     {
       "number": "1628511",
-      "position": 38,
+      "position": 39,
       "priority": 8,
       "total_scores": 0,
       "ia_scores": 0,
@@ -306,14 +314,6 @@
     },
     {
       "number": "2273954",
-      "position": 39,
-      "priority": 2,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": true
-    },
-    {
-      "number": "1893677",
       "position": 40,
       "priority": 2,
       "total_scores": 0,
@@ -321,8 +321,16 @@
       "consent": true
     },
     {
-      "number": "2131879",
+      "number": "1893677",
       "position": 41,
+      "priority": 2,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": true
+    },
+    {
+      "number": "2131879",
+      "position": 42,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -330,7 +338,7 @@
     },
     {
       "number": "1252049",
-      "position": 42,
+      "position": 43,
       "priority": 25,
       "total_scores": 0,
       "ia_scores": 0,
@@ -338,7 +346,7 @@
     },
     {
       "number": "2458999",
-      "position": 43,
+      "position": 44,
       "priority": 3,
       "total_scores": 0,
       "ia_scores": 0,
@@ -346,7 +354,7 @@
     },
     {
       "number": "2216157",
-      "position": 44,
+      "position": 45,
       "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
@@ -354,7 +362,7 @@
     },
     {
       "number": "1608390",
-      "position": 45,
+      "position": 46,
       "priority": 3,
       "total_scores": 0,
       "ia_scores": 0,
@@ -362,7 +370,7 @@
     },
     {
       "number": "1246441",
-      "position": 46,
+      "position": 47,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -370,14 +378,6 @@
     },
     {
       "number": "1652830",
-      "position": 47,
-      "priority": 2,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2117943",
       "position": 48,
       "priority": 2,
       "total_scores": 0,
@@ -385,8 +385,16 @@
       "consent": false
     },
     {
-      "number": "2520754",
+      "number": "2117943",
       "position": 49,
+      "priority": 2,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "2520754",
+      "position": 50,
       "priority": 7,
       "total_scores": 0,
       "ia_scores": 0,
@@ -394,7 +402,7 @@
     },
     {
       "number": "2391232",
-      "position": 50,
+      "position": 51,
       "priority": 3,
       "total_scores": 0,
       "ia_scores": 0,
@@ -402,14 +410,6 @@
     },
     {
       "number": "1896907",
-      "position": 51,
-      "priority": 3,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
-    },
-    {
-      "number": "2370501",
       "position": 52,
       "priority": 3,
       "total_scores": 0,
@@ -417,8 +417,16 @@
       "consent": false
     },
     {
-      "number": "1317324",
+      "number": "2370501",
       "position": 53,
+      "priority": 3,
+      "total_scores": 0,
+      "ia_scores": 0,
+      "consent": false
+    },
+    {
+      "number": "1317324",
+      "position": 54,
       "priority": 11,
       "total_scores": 0,
       "ia_scores": 0,
@@ -426,7 +434,7 @@
     },
     {
       "number": "2435771",
-      "position": 54,
+      "position": 55,
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
@@ -434,7 +442,7 @@
     },
     {
       "number": "2295041",
-      "position": 55,
+      "position": 56,
       "priority": 3,
       "total_scores": 0,
       "ia_scores": 0,
@@ -442,7 +450,7 @@
     },
     {
       "number": "1731921",
-      "position": 56,
+      "position": 57,
       "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
@@ -450,7 +458,7 @@
     },
     {
       "number": "2006041",
-      "position": 57,
+      "position": 58,
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
@@ -458,7 +466,7 @@
     },
     {
       "number": "2266940",
-      "position": 58,
+      "position": 59,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -466,7 +474,7 @@
     },
     {
       "number": "2056389",
-      "position": 59,
+      "position": 60,
       "priority": 45,
       "total_scores": 0,
       "ia_scores": 0,
@@ -474,7 +482,7 @@
     },
     {
       "number": "2406445",
-      "position": 60,
+      "position": 61,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -482,7 +490,7 @@
     },
     {
       "number": "1955815",
-      "position": 61,
+      "position": 62,
       "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
@@ -490,7 +498,7 @@
     },
     {
       "number": "2564495",
-      "position": 62,
+      "position": 63,
       "priority": 43,
       "total_scores": 0,
       "ia_scores": 0,
@@ -498,7 +506,7 @@
     },
     {
       "number": "2431947",
-      "position": 63,
+      "position": 64,
       "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
@@ -506,7 +514,7 @@
     },
     {
       "number": "2173525",
-      "position": 64,
+      "position": 65,
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
@@ -514,7 +522,7 @@
     },
     {
       "number": "2100821",
-      "position": 65,
+      "position": 66,
       "priority": 19,
       "total_scores": 0,
       "ia_scores": 0,
@@ -522,7 +530,7 @@
     },
     {
       "number": "2105936",
-      "position": 66,
+      "position": 67,
       "priority": 4,
       "total_scores": 0,
       "ia_scores": 0,
@@ -530,7 +538,7 @@
     },
     {
       "number": "2497260",
-      "position": 67,
+      "position": 68,
       "priority": 6,
       "total_scores": 0,
       "ia_scores": 0,
@@ -538,7 +546,7 @@
     },
     {
       "number": "2552159",
-      "position": 68,
+      "position": 69,
       "priority": 48,
       "total_scores": 0,
       "ia_scores": 0,
@@ -546,7 +554,7 @@
     },
     {
       "number": "2365531",
-      "position": 69,
+      "position": 70,
       "priority": 29,
       "total_scores": 0,
       "ia_scores": 0,
@@ -554,7 +562,7 @@
     },
     {
       "number": "2154791",
-      "position": 70,
+      "position": 71,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -562,7 +570,7 @@
     },
     {
       "number": "2242280",
-      "position": 71,
+      "position": 72,
       "priority": 5,
       "total_scores": 0,
       "ia_scores": 0,
@@ -570,7 +578,7 @@
     },
     {
       "number": "2073710",
-      "position": 72,
+      "position": 73,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
