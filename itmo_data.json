@@ -273,8 +273,16 @@
       "consent": false
     },
     {
-      "number": "2335776",
+      "number": "2628869",
       "position": 35,
+      "priority": 2,
+      "total_scores": 1,
+      "ia_scores": 1,
+      "consent": true
+    },
+    {
+      "number": "2335776",
+      "position": 36,
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
@@ -282,7 +290,7 @@
     },
     {
       "number": "967634",
-      "position": 36,
+      "position": 37,
       "priority": 1,
       "total_scores": 0,
       "ia_scores": 0,
@@ -290,7 +298,7 @@
     },
     {
       "number": "1628511",
-      "position": 37,
+      "position": 38,
       "priority": 8,
       "total_scores": 0,
       "ia_scores": 0,
@@ -298,14 +306,6 @@
     },
     {
       "number": "2273954",
-      "position": 38,
-      "priority": 2,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": true
-    },
-    {
-      "number": "2628869",
       "position": 39,
       "priority": 2,
       "total_scores": 0,
@@ -575,14 +575,6 @@
       "total_scores": 0,
       "ia_scores": 0,
       "consent": false
-    },
-    {
-      "number": "2557935",
-      "position": 73,
-      "priority": 1,
-      "total_scores": 0,
-      "ia_scores": 0,
-      "consent": false
     }
   ],
   "Наночастички": [
@@ -667,8 +659,16 @@
       "consent": true
     },
     {
-      "number": "1096965",
+      "number": "2628869",
       "position": 11,
+      "priority": 1,
+      "total_scores": 101,
+      "ia_scores": 1,
+      "consent": true
+    },
+    {
+      "number": "1096965",
+      "position": 12,
       "priority": 2,
       "total_scores": 100,
       "ia_scores": 0,
@@ -676,14 +676,6 @@
     },
     {
       "number": "2086076",
-      "position": 12,
-      "priority": 4,
-      "total_scores": 100,
-      "ia_scores": 0,
-      "consent": true
-    },
-    {
-      "number": "1003341",
       "position": 13,
       "priority": 4,
       "total_scores": 100,
@@ -691,8 +683,16 @@
       "consent": true
     },
     {
-      "number": "2292739",
+      "number": "1003341",
       "position": 14,
+      "priority": 4,
+      "total_scores": 100,
+      "ia_scores": 0,
+      "consent": true
+    },
+    {
+      "number": "2292739",
+      "position": 15,
       "priority": 2,
       "total_scores": 100,
       "ia_scores": 0,
@@ -700,7 +700,7 @@
     },
     {
       "number": "2177327",
-      "position": 15,
+      "position": 16,
       "priority": 4,
       "total_scores": 100,
       "ia_scores": 0,
@@ -708,7 +708,7 @@
     },
     {
       "number": "1151097",
-      "position": 16,
+      "position": 17,
       "priority": 4,
       "total_scores": 100,
       "ia_scores": 0,
@@ -716,7 +716,7 @@
     },
     {
       "number": "1086095",
-      "position": 17,
+      "position": 18,
       "priority": 3,
       "total_scores": 100,
       "ia_scores": 0,
@@ -724,7 +724,7 @@
     },
     {
       "number": "1510419",
-      "position": 18,
+      "position": 19,
       "priority": 2,
       "total_scores": 100,
       "ia_scores": 0,
@@ -732,7 +732,7 @@
     },
     {
       "number": "2131879",
-      "position": 19,
+      "position": 20,
       "priority": 3,
       "total_scores": 100,
       "ia_scores": 0,
@@ -740,7 +740,7 @@
     },
     {
       "number": "2292617",
-      "position": 20,
+      "position": 21,
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
@@ -748,7 +748,7 @@
     },
     {
       "number": "2484353",
-      "position": 21,
+      "position": 22,
       "priority": 5,
       "total_scores": 100,
       "ia_scores": 0,
@@ -756,7 +756,7 @@
     },
     {
       "number": "1239793",
-      "position": 22,
+      "position": 23,
       "priority": 1,
       "total_scores": 100,
       "ia_scores": 0,
@@ -764,16 +764,8 @@
     },
     {
       "number": "2365747",
-      "position": 23,
-      "priority": 3,
-      "total_scores": 100,
-      "ia_scores": 0,
-      "consent": true
-    },
-    {
-      "number": "2628869",
       "position": 24,
-      "priority": 1,
+      "priority": 3,
       "total_scores": 100,
       "ia_scores": 0,
       "consent": true
