@@ -885,7 +885,7 @@
     {
       "number": "1856223",
       "position": 37,
-      "priority": 3,
+      "priority": 2,
       "total_scores": 97,
       "ia_scores": 0,
       "consent": true
@@ -912,7 +912,7 @@
       "priority": 1,
       "total_scores": 90,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "2391232",
@@ -1128,7 +1128,7 @@
       "priority": 2,
       "total_scores": 0,
       "ia_scores": 0,
-      "consent": false
+      "consent": true
     },
     {
       "number": "1986871",
